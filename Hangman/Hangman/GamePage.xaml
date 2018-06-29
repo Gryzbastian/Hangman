@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hangman.GamePage"
+             BackgroundColor = "Black">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image x:Name="HangmanImage0" Source="0.png"/>
+            <Label
+                x:Name="passwordLabel"
+                Text="ERROR"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                TextColor="White"
+                BackgroundColor="Black"/>                           
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Text="A" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="0" Grid.Column="0"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="B" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="0" Grid.Column="1"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="C" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="0" Grid.Column="2"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="D" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="0" Grid.Column="3"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="E" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="0" Grid.Column="4"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="F" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="1" Grid.Column="0"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="G" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="1" Grid.Column="1"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="H" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="1" Grid.Column="2"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="I" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="1" Grid.Column="3"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="J" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="1" Grid.Column="4"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="K" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="2" Grid.Column="0"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="L" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="2" Grid.Column="1"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="M" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="2" Grid.Column="2"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="N" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="2" Grid.Column="3"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="O" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="2" Grid.Column="4"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="P" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="3" Grid.Column="0"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="Q" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="3" Grid.Column="1"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="R" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="3" Grid.Column="2"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="S" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="3" Grid.Column="3"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="T" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="3" Grid.Column="4"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="U" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="4" Grid.Column="0"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="W" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="4" Grid.Column="1"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="X" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="4" Grid.Column="2"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="Y" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="4" Grid.Column="3"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+                <Button Text="Z" 
+                             FontSize="Medium"
+                             Clicked="LetterButton_Clicked"
+                             Grid.Row="4" Grid.Column="4"
+                             TextColor="White"
+                             BackgroundColor="Black"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

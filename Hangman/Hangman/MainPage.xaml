@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Hangman"
+             x:Class="Hangman.MainPage"
+             BackgroundColor = "Black">
+    <StackLayout Spacing="20" Padding="20" >
+        <Image Source="Title.PNG"/>
+        <Image Source="Logo.png"/>
+        <Button Text="Category Select" 
+                FontSize="Medium"
+                TextColor="White"  
+                BackgroundColor="Black"
+                Margin="0,30,0,10"
+                HorizontalOptions="Center"
+                Clicked="CathegorySelectButton_Clicked"/>
+        <Button Text="Exit" 
+                FontSize="Medium"
+                TextColor="White"
+                BackgroundColor="Black"
+                HorizontalOptions="Center"
+                Clicked="ExitButton_Clicked"/>
+    </StackLayout>
+</ContentPage>

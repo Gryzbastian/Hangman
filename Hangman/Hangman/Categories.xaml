@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hangman.Categories"
+             BackgroundColor = "Black">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="10" />
+            </Grid.ColumnDefinitions>
+            
+            <Button Text="Animals" 
+               FontSize="Medium"
+               Grid.Row="2" 
+               Grid.Column="1"
+               VerticalOptions="CenterAndExpand" 
+               HorizontalOptions="CenterAndExpand"
+               TextColor="White"
+               BackgroundColor="Black"
+               Clicked="Animals_Selected_Button_Clicked"/>
+            <Button Text="Movie titles" 
+               FontSize="Medium"
+               Grid.Row="3" 
+               Grid.Column="1"
+               VerticalOptions="CenterAndExpand" 
+               HorizontalOptions="CenterAndExpand"
+               TextColor="White"
+               BackgroundColor="Black"                    
+               Clicked="Movies_Selected_Button_Clicked"/>
+            <Button Text="Country names" 
+               FontSize="Medium"
+               Grid.Row="4" 
+               Grid.Column="1"
+               VerticalOptions="CenterAndExpand" 
+               HorizontalOptions="CenterAndExpand"
+               TextColor="White"
+               BackgroundColor="Black"                    
+               Clicked="Countries_Selected_Button_Clicked"/>
+            <Button Text="Games" 
+               FontSize="Medium"
+               Grid.Row="5" 
+               Grid.Column="1"
+               VerticalOptions="CenterAndExpand" 
+               HorizontalOptions="CenterAndExpand"
+               TextColor="White"
+               BackgroundColor="Black"                    
+               Clicked="Games_Selected_Button_Clicked"/>
+            <Button Text="Music" 
+               FontSize="Medium"
+               Grid.Row="6" 
+               Grid.Column="1"
+               VerticalOptions="CenterAndExpand" 
+               HorizontalOptions="CenterAndExpand"
+               TextColor="White"
+               BackgroundColor="Black"                    
+               Clicked="Music_Selected_Button_Clicked"/>
+            <Button Text="Back" 
+               FontSize="Medium"
+               Grid.Row="8" 
+               Grid.Column="1"
+               VerticalOptions="CenterAndExpand" 
+               HorizontalOptions="CenterAndExpand"
+               TextColor="White"
+               BackgroundColor="Black"                    
+               Clicked="Back_To_Main_Button_Clicked"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
